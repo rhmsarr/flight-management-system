@@ -1,0 +1,47 @@
+<style>
+    .card{
+        padding:20px;
+    }
+</style>
+<p>Users chooses their options (seat types, number of baggage) and get their price calculated</p>
+<div class="row">
+    <div class="col-8">
+<form>
+    <select class="form-select">
+        <option> Seat type</option>
+        <option> Economy  </option>
+        <option> Business </option>
+        <option> First Class</option>
+    </select>
+    <br>
+    <div class="card">
+        <h5>First baggage</h5>
+        <p>Baggage info</p>
+
+    </div>
+    <br>
+    <div class="card">
+        <h5>Second baggage</h5>
+        <p>Baggage info</p>
+    </div>
+    <br>
+    
+    <br>
+    <div class="card">
+        <h5>Add baggage</h5>
+        <select class="form-select">
+            <option>Baggage type</option>
+        </select>
+        <br>
+        <button class="btn btn-primary">Add baggage</button>
+    </div>
+    <br><br><br>
+    
+</form>
+</div>
+<div class="col-4">
+    <br><br><br>
+    <h3 class="text-danger">$300</h3>
+    <a class="btn btn-primary" asp-action="LastCheckout" asp-controller="Flights">Proceed to checkout</a>
+</div>
+</div>

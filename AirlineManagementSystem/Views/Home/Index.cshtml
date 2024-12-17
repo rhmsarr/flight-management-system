@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<Form>
+     <p>form to get to flights depending on the user input</p>
+     <input type="date"> 
+     <label>Departure</label>
+     <select>
+        <option>Coutry1</option>
+     </select>
+     <label>Arrival</label>
+     <select>
+        <option>Coutry1</option>
+     </select>
+     <a class="btn btn-primary" asp-controller="Flights" asp-action="Index">Go to flights</a>
+</Form>

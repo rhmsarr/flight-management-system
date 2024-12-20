@@ -28,3 +28,9 @@ C:\Users\33780\Documents\3rd_semester\dbms\FinalProject\AirlineManagementSystem\
 C:\Users\33780\Documents\3rd_semester\dbms\FinalProject\AirlineManagementSystem\obj\Debug\net8.0\AirlineManagementSystem.pdb
 C:\Users\33780\Documents\3rd_semester\dbms\FinalProject\AirlineManagementSystem\obj\Debug\net8.0\AirlineManagementSystem.genruntimeconfig.cache
 C:\Users\33780\Documents\3rd_semester\dbms\FinalProject\AirlineManagementSystem\obj\Debug\net8.0\ref\AirlineManagementSystem.dll
+C:\Users\33780\Documents\3rd_semester\dbms\FinalProject\AirlineManagementSystem\obj\Debug\net8.0\AirlineManagementSystem.csproj.AssemblyReference.cache
+C:\Users\33780\Documents\3rd_semester\dbms\FinalProject\AirlineManagementSystem\obj\Debug\net8.0\AirlineManagementSystem.sourcelink.json
+C:\Users\33780\Documents\3rd_semester\dbms\FinalProject\AirlineManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\33780\Documents\3rd_semester\dbms\FinalProject\AirlineManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\33780\Documents\3rd_semester\dbms\FinalProject\AirlineManagementSystem\bin\Debug\net8.0\Npgsql.dll
+C:\Users\33780\Documents\3rd_semester\dbms\FinalProject\AirlineManagementSystem\obj\Debug\net8.0\AirlineM.FAB5CB11.Up2Date

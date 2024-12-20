@@ -16,9 +16,10 @@ namespace AirlineManagementSystem.Models{
         public int PersonID { get; set; }
 
         public int SeatID { get; set; }
-
+  
         // Navigation properties
         public Flight Flight { get; set; }
+        public List<Baggage> baggages{ get; set; }
         public Person Person { get; set; }
         public Seat Seat { get; set; }
     }

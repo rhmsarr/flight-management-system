@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4TPQB8P2j94LU39CMWoARkbDmxGY+baR0Lz1nqGUQNcIPOrI0t5tqxwRJTLtVck5zJEdxa2wz7FyZST1F9Q6dg==",
+  "dgSpecHash": "cIIZvEvtP30=",
   "success": true,
-  "projectFilePath": "C:\\Users\\betul\\OneDrive\\Desktop\\d\\flight-management-system\\AirlineManagementSystem\\AirlineManagementSystem.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\33780\\Documents\\3rd_semester\\dbms\\FinalProject\\AirlineManagementSystem\\AirlineManagementSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\33780\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\33780\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\33780\\.nuget\\packages\\npgsql\\9.0.2\\npgsql.9.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

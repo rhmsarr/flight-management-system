@@ -1,3 +1,5 @@
+@model List<Flight>
+
 <p>All the flights will be listed here. the user will have access to filters (date, time, location, airline ect) </p>
 <style>
     .card{
@@ -7,26 +9,22 @@
         float:inline-end;
     }
 </style>
+
  
-     <input type="date"> 
-     <label>Departure</label>
-     <select>
-        <option>Coutry1</option>
-     </select>
-     <label>Arrival</label>
-     <select>
-        <option>Coutry1</option>
-     </select>
-     <a class="btn btn-primary" asp-controller="Flights" asp-action="Index">Search</a>
-     <br><br>
-<div class="card">
-    <span><h3 style="display: inline-block">8:00 AM - 1:00 PM </h3> <h4> 4 hours</h4></span>
-    <p>London - Madrid</p>
-    <p>British Airlines</p>
-    <span><h5 class="text-danger" style="display: inline-block"> $300</h5><a asp-controller="Flights" asp-action="Checkout" class="btn btn-primary" style="float:inline-end" >Checkout</a></span>
-    
-</div>
-<br><br>
+    @foreach(Flight flight in Model){
+        <div class="card">
+            <span><h3 style="display: inline-block">@flight.DepartureTime.TimeOfDay - @flight.ArrivalTime.TimeOfDay </h3> <h4> 4 hours</h4></span>
+            <p>@flight.DepartureCity @flight.DepartureAirport - @flight.ArrivalCity @flight.ArrivalAirport</p>
+            <p>@flight.AirlineName</p>
+            <span><h5 class="text-danger" style="display: inline-block"> $@flight.Price</h5>
+            <a asp-controller="Flights" asp-action="Checkout" asp-route-id="@flight.FlightID" class="btn btn-primary" style="float:inline-end" >Checkout</a></span>
+            
+        </div>
+        <br><br>
+    }
+     
+
+<!--
 <div class="card">
     <span><h3 style="display: inline-block">8:00 AM - 1:00 PM </h3> <h4 style="display: inline-block"> 4 hours</h4></span>
     <p>London - Madrid</p>
@@ -41,4 +39,4 @@
     <p>British Airlines</p>
     <span><h5 class="text-danger" style="display: inline-block"> $300</h5><a asp-controller="Flights" asp-action="Checkout" class="btn btn-primary" style="float:inline-end" >Checkout</a></span>
     
-</div>
+</div>-->

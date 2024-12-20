@@ -1,19 +1,27 @@
-﻿@{
+﻿@model List<string>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 
 
-<Form>
+<Form method="Post" asp-action="Index" asp-controller="Flights">
      <p>form to get to flights depending on the user input</p>
-     <input type="date"> 
-     <label>Departure</label>
-     <select>
-        <option>Coutry1</option>
-     </select>
+     <input type="date" name="Date"> 
+     <label>Departure</label> <select name="DepartureCountry">
+     @foreach(string c in Model){
+        
+         <option value="@c">@c</option>
+         
+     }</select>
+     
      <label>Arrival</label>
-     <select>
-        <option>Coutry1</option>
-     </select>
-     <a class="btn btn-primary" asp-controller="Flights" asp-action="Index">Go to flights</a>
+     <select name="ArrivalCountry">
+     @foreach(string c in Model){
+         
+         <option value="@c">@c</option>
+        
+     } </select>
+     <button type="submit" class="btn btn-primary">Go to flights</button>
 </Form>

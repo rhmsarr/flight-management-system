@@ -17,7 +17,7 @@ namespace AirlineManagementSystem.Models{
 
         public int AirportID { get; set; }
 
-        public Airport Airport { get; set; }
-        public ICollection<Flight> Flights { get; set; }
+        public Airport DepartureAirport { get; set; }
+        public Airport ArrivalAirport {get; set;}
     }
 }

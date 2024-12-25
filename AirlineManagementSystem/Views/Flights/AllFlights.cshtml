@@ -16,12 +16,12 @@
             <p>@flight.DepartureCity @flight.DepartureAirport - @flight.ArrivalCity @flight.ArrivalAirport</p>
             <p>@flight.AirlineName</p>
             <span><h5 class="text-danger" style="display: inline-block"> $@flight.Price</h5>
-            <a asp-controller="Flights" asp-action="Checkout" asp-route-id="@flight.FlightID" class="btn btn-primary" style="float:inline-end" >Checkout</a></span>
+            <a asp-controller="Flights" asp-action="Delete" asp-route-id="@flight.FlightID" class="btn btn-primary" style="float:inline-end" >Delete</a>
+            <a asp-controller="Flights" asp-action="UpdateFlight" asp-route-id="@flight.FlightID" class="btn btn-primary" style="float:inline-end" >Update</a></span>
             
         </div>
         <br><br>
     }
-     
      
 
 

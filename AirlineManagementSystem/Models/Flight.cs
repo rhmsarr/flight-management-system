@@ -19,5 +19,7 @@ namespace AirlineManagementSystem.Models{
         
         public Route FlightRoute {get; set;}
         public Plane FlightPlane {get; set;}
+
+        public string Duration {get; set;}
     }
 }

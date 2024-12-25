@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\33780\\Documents\\3rd_semester\\dbms\\FinalProject\\AirlineManagementSystem\\AirlineManagementSystem.csproj": {}
+    "C:\\Users\\Leen Husseini\\OneDrive\\Desktop\\flight-management-system\\AirlineManagementSystem\\AirlineManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\33780\\Documents\\3rd_semester\\dbms\\FinalProject\\AirlineManagementSystem\\AirlineManagementSystem.csproj": {
+    "C:\\Users\\Leen Husseini\\OneDrive\\Desktop\\flight-management-system\\AirlineManagementSystem\\AirlineManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\33780\\Documents\\3rd_semester\\dbms\\FinalProject\\AirlineManagementSystem\\AirlineManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Leen Husseini\\OneDrive\\Desktop\\flight-management-system\\AirlineManagementSystem\\AirlineManagementSystem.csproj",
         "projectName": "AirlineManagementSystem",
-        "projectPath": "C:\\Users\\33780\\Documents\\3rd_semester\\dbms\\FinalProject\\AirlineManagementSystem\\AirlineManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\33780\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\33780\\Documents\\3rd_semester\\dbms\\FinalProject\\AirlineManagementSystem\\obj\\",
+        "projectPath": "C:\\Users\\Leen Husseini\\OneDrive\\Desktop\\flight-management-system\\AirlineManagementSystem\\AirlineManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\Leen Husseini\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leen Husseini\\OneDrive\\Desktop\\flight-management-system\\AirlineManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\33780\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Leen Husseini\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
